@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="tadd.css">
+    <title>My portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- <script>
+      var k=0;
+        var t=0;
+       function func1()
+      { 
+        var sectag=document.getElementById("home");
+        var bgcolor=["red","pink","rosybrown","violet"];
+        var txtcolor=["deeppink","green","orange","gray","yellow"];
+        sectag.style.backgroundColor=bgcolor[k];
+        sectag.style.color=txtcolor[t];
+        k=(k+1)%bgcolor.length;
+        t=(t+1)%txtcolor.length;
+      }
+      setInterval(func1,2000);
+    </script> -->
+	<script>
+	 function send()
+  { 
+  if(document.getElementById('f').value.length!=" " && document.getElementById('l').value.length!=" ")
+  {
+       if(document.getElementById('e').value.length!=" " && document.getElementById('m').value.length!=" ")
+      {
+     alert(" succesfully sent....");
+      }
+	  else
+      {
+     alert(" please fill the form correctly!!");
+       }
+  }
+  else
+       {
+  alert(" please fill the form correctly!!");
+       }
+  }
+	</script>
+  </head>
+  <body>
+
+    <!-- navbar -->
+       <div class="row main-navbar">
+           <div class="col-11 mx-auto ">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-primary" href="#">
+                      TayeCoder
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+                      </li>
+					  <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#7">skill</a>
+                      </li>
+						<li class="nav-item">
+                        <a class="nav-link" href="imgGallery/GALLERY.html">gallary</a>
+                      </li>
+					  <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">contact me</a>
+                      </li>
+					  
+					  </ul>
+             <!--  -->
+                  </div>
+                </div>
+              </nav>
+           </div>
+       </div>
+    <!-- /navbar -->
+      
+    <!-- slider -->
+        <div class="row slider" id="home">
+            <div class="col-10 mx-auto">
+                <div class="row">
+                    <section class="col-md-4 slider-image circle-rounded" >
+                        <img src="cover.JPG" alt="tadilo photo">
+                    </section>
+                    <section class="col-md-8">
+                        <p class="name"> <strong>Wellcome To My Page</strong><br>I am <stron>Taye</stron></p>
+                        <h3 class="department">computer Science Student</h3>
+                        <h3 class="location">Ethiopian</h3>
+                        <p class="description">I'am problem solver focused on data structure and algorithm , I am passionate in problem solving
+                            that improves the lives of those around me.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    <!-- /slider -->
+
+    <!-- about me -->
+    <div class="row aboutus mt-5" id="about">
+        <div class="col-11 mx-auto">
+          <div class="row">
+            <div class="col-md-6">
+         
+                <h3 class="lg-title">About Me</h3>
+                <p class="text">hello everyone i am Taye and <I></I> was born in 2002 in Amhra Gojjam Ethiopia.
+				I take my elimintary in Degasegnin primary school and I take my secondary school 
+				in Degasegnin secondary schooland  AMANUEL prparatory scool my peparatory program  and currently I am 4<sup>th</sup> year 
+				Addis Abeba University student
+            </div>
+            
+            <!-- <div class="col-6"></div> -->
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                  <img class="about-image" src="tadd.JPG" alt="">
+               </div>
+               <div class="col-md-6">
+                   <p class="a-name">I'am Taye</p>
+                   <p class="a-department">
+                      computer Science Student at <span>Addis Ababa University</span></p>
+                      <p class="text">welcome to my page </p> 
+
+                      <div class="line"></div>
+                    <section class="row">
+                      <p></p>
+                       <div class="col-md-6">
+                         <h3 class="p-i">Personal Information</h3>
+                         <table>
+                           <tbody>
+                             <tr>
+                               <th>Name:</th>
+                               <td>Taye Animaw</td>
+                             </tr>
+                             <tr>
+                              <th>Age:</th>
+                              <td>23</td>
+                            </tr>
+                            <tr>
+                              <th>Nationality:</th>
+                              <td>Ethiopian</td>
+                            </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                       <div class="col-md-6">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <th>Department:</th>
+                                <td>computer science</td>
+                              </tr>
+                              <tr>
+                              <th>skill:</th>
+                              <td>Networking and coding</td>
+                            </tr>
+                            <tr>
+                              <th>favorite:</th>
+                              <td>reading fiction</td>
+                            </tr>
+							<tr>
+                              <th>dream:</th>
+                              <td>Network Adiministar</td>
+                            </tr>
+                            </tbody>
+                          </table>
+                       </div>
+                    </section>
+                    <button class="btn-success">Download CV</button>
+               </div>
+          </div>
+          </div>
+         <a href="#home"  >top</a>
+  <a href="#contact">bottom</a>
+    </div>
+    <!-- /about me -->
+
+
+    <!-- exprience -->
+          <div class="row exper mt-5"> 
+            <div class="col-11 mx-auto">
+               <div class="row">
+
+                 <h3 class="lg-title">My Exprience</h3>
+                 <!-- card --> 
+                 <div class="col-md-4">
+                    <div class="card" style="width: 100%;">
+                      <div class="card-body">
+                        <h5 class="card-title">self-awareness</h5>
+                        <p class="card-text">How Does Self-Awareness Relate to Building Positive Habits?
+                                  Self-awareness is a vital first step in taking control of your life, creating what you want, 
+								  and mastering your future. Where you choose to focus your energy, emotions, personality, and 
+								  reactions determines where you will end up in life.
+							   </p>
+                        <a href="readmore1.html" class="btn btn-success">Read More</a>
+                      </div>
+                    </div>
+                 </div>
+                 <!-- /card -->
+                  <!-- card -->
+                  <div class="col-md-4">
+                    <div class="card" style="width: 100%;">
+                      <div class="card-body">
+                        <h5 class="card-title">volunter</h5>
+                        <p class="card-text"><b>Volunteer</b> 
+                                   It’s been proven that giving something back and volunteering for a cause close to our 
+                                    hearts is incredibly rewarding and emits dopamine, a euphoric agent. 
+                                    There’s so many ways to get involved with volunteering, whether 
+									it’s raising awareness, helping out at a shelter or donating your possessions.</p>
+                        <a href="#" class="btn btn-success">Read More</a>
+                      </div>
+                    </div>
+                 </div>
+                   <!-- /card -->
+                    <!-- card -->
+                    <div class="col-md-4">
+                      <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                          <h5 class="card-title">My futureplan</h5>
+                          <p class="card-text"> future tells your current movement So, are you ready to hear my future plan and my advice? 
+						  Take a look at the following 8 my future goals examples so you can get started today. 
+						  And before you know it, you’ll be well on your way to a better, more fulfilling life.<br><hr>
+                      </p>
+                          <a href="readmore.html" class="btn btn-success">Read More</a>
+                        </div>
+                      </div>
+                   </div>
+                 <!-- /card -->
+             </div>
+
+            </div>
+          </div>
+    <!-- exprience end -->
+	<!--skill start-->
+	<h1 style="background-color:pink;text-align:center;color:black" id="7">Skills</h1><br>
+ 
+ <div class="m-3 h3" style="color:white">HTML5 <p class="progress progress-bar" style="width:90%"/>90%</p></div>
+ <div class="m-3 h3" style="color:white">CSS<p class="progress progress-bar" style="width:90%"/>90%</p></div>
+<div class="m-3 h3" style="color:white">Javascript <p class="progress progress-bar" style="width:85%"/>85%</p></div>
+<div class="m-3 h3" style="color:white">java<p class="progress progress-bar" style="width:75%"/>75%</p></div>
+<div class="m-3 h3" style="color:white">c#<p class="progress progress-bar" style="width:70%"/>70%</p></div>
+<div class="m-3 h3" style="color:white">Data structure and algorithm <p class="progress progress-bar" style="     width:75%"/>75%</p></div>
+<div class="m-3 h3" style="color:white">React native/Js<p class="progress progress-bar" style="width:82%"/>82%</p></div>
+<div class="m-3 h3" style="color:white">Flutter<p class="progress progress-bar" style="width:60%"/>60%</p></div>
+<div class="m-3 h3" style="color:white">phyton#<p class="progress progress-bar" style="width:60%"/>60%</p></div>
+	<!--skill end-->
+    <!-- gallary start-->
+    <br>
+
+	<a href="#home"  >top</a><br>
+  <a href="#contact">bottom</a>
+  
+
+    <!-- gallary end-->
+    <!-- Contact Me start -->
+          <div class="contact mt-5" id="contact">
+            <div class="col-11 mx-auto">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="sm-title">Contact Me</div>
+                  <div class="lg-title">Let's discuss about your project</div>
+                  <p class="text">hello everyone i am realy open to hear your idea, come on guys 
+				        if you have any idea i am open to help you and to learn from your expiernce so guys
+						come on and let's share from what we have 
+				  </p>
+                  <section class="iconSection">
+                      <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                      </div>
+                      <p class="icon-text">+251 995776509</p>
+                  </section>
+                  <section class="iconSection">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                      </svg>
+                    </div>
+					<p class="icon-text">kalyibeltal1221@gmail.com</p> 
+                     </section>
+					<!--<p class="icon-text">tadilotigetumebratus@gmail.com</p> -->
+					<p style="color:white"><i class="bi bi-geo-alt text-danger "></i> Addis Ababa,Ethiopia</p>
+           <p style="color:white"><a href="https://www.facebook.com/tad.man.733"><i class="bi bi-facebook text-danger"></i></a> aman man</p>
+  
+					
+                
+                </div>
+				<form action="mailto:kalyibeltal1221@gmail">
+                <div class="col-md-6">
+                  <p class="c-text">Send me <span>Message</span> here</p>
+                  <div class="mb-3 mt-3">
+				       <p style=" color:white">First Name</p>
+					<input type="text" style="width:100%;" placeholder="First Name" class="m-2" id="f" required>
+                       <p style="color:white">last Name:</p>
+				    <input type="text" style="width:100%;" placeholder="last Name" class="m-3" id="l"><br>
+  
+                    <label for="exampleFormControlInput1" class="form-label" >Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" id"e" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" id="m"></textarea>
+                  </div>
+                  <button class="btn btn-success" onclick="send()">Submit</button>
+                </div>
+				</form>
+              </div>
+            </div>
+          </div>
+		  <a href="#home">top of the page</a>
+
+    <!-- /Contact me end-->
+
+    <!-- footer -->
+          <div class="row footer">
+            <a href="#"> created by <span>@Taye</span></a>
+          </div>
+    <!-- /footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
